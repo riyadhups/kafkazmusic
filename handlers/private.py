@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://i.ibb.co/khRz42f/Turkish-Voice.jpg",
-                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Talia Müzik 🎙️](https://t.me/karabakhteamm).**""", 
+                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [kafkaz Müzik 🎙️](https://t.me/azeqafqaz2021).**""", 
                 
                 e
 
@@ -18,7 +18,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/KarabakhMusicBot?tartgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/KafkazMusicBot?tartgroup=true"
                     )
                 ],
                 [
