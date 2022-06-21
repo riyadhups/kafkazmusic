@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://images.app.goo.gl/UgXse5CRA5UPnyfk7"
+        thumb_name = "https://images.app.goo.gl/jy8CW3qjPTvwyqfw9"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerel olarak eklendi"
@@ -207,7 +207,7 @@ async def play(_, message: Message):
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://images.app.goo.gl/UgXse5CRA5UPnyfk7"
+            thumb_name = "https://images.app.goo.gl/jy8CW3qjPTvwyqfw9"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
